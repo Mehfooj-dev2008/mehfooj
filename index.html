@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Pineapple</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f4f4f4;
+    }
+
+    header {
+      background: #fff;
+      padding: 20px;
+      border-bottom: 1px solid #ccc;
+    }
+
+    .logo {
+      font-size: 32px;
+      font-weight: bold;
+      display: flex;
+      align-items: center;
+    }
+
+    nav {
+      background: #e5c24a;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px 20px;
+    }
+
+    nav ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      display: flex;
+    }
+
+    nav ul li {
+      margin: 0 10px;
+    }
+
+    nav ul li a {
+      text-decoration: none;
+      color: #333;
+      padding: 8px 12px;
+      background: #f9db5f;
+      border-radius: 5px;
+    }
+
+    nav input[type="text"] {
+      padding: 5px;
+      border: 1px solid #aaa;
+      border-radius: 3px;
+    }
+
+    .content {
+      padding: 20px;
+      background: #fff;
+    }
+
+    h1 {
+      font-size: 24px;
+    }
+
+    .read-more {
+      display: inline-block;
+      margin-top: 10px;
+      padding: 10px 15px;
+      background: #c0392b;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 3px;
+    }
+
+    .projects {
+      padding: 20px;
+    }
+
+    .projects h2 {
+      color: #d58512;
+    }
+
+    .project-grid {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+
+    .project-item {
+      background: #fff;
+      border: 2px solid #333;
+      padding: 10px;
+      width: calc(33.333% - 20px);
+      box-sizing: border-box;
+    }
+
+    .project-item img {
+      width: 100%;
+      height: 120px;
+      object-fit: cover;
+    }
+
+    .project-item h3 {
+      color: #d58512;
+      font-size: 14px;
+      margin: 10px 0 5px;
+    }
+
+    .footer {
+      background: #d6b12a;
+      color: #333;
+      padding: 30px 20px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+    }
+
+    .footer div {
+      width: 22%;
+      margin-bottom: 20px;
+    }
+
+    .footer h3 {
+      margin-bottom: 10px;
+    }
+
+    .footer p {
+      font-size: 14px;
+      line-height: 1.6;
+    }
+
+    .footer-bottom {
+      background: #333;
+      color: #fff;
+      padding: 10px 20px;
+      text-align: center;
+      font-size: 14px;
+    }
+
+    .social-icons img {
+      width: 20px;
+      margin-right: 8px;
+    }
+
+    @media (max-width: 800px) {
+      .project-item {
+        width: calc(50% - 20px);
+      }
+
+      .footer div {
+        width: 45%;
+      }
+    }
+
+    @media (max-width: 500px) {
+      .project-item, .footer div {
+        width: 100%;
+      }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="logo">🍍 Pineapple</div>
+</header>
+
+<nav>
+  <ul>
+    <li><a href="#">Home</a></li>
+    <li><a href="#">Gallery</a></li>
+    <li><a href="#">Templates</a></li>
+    <li><a href="#">Themes</a></li>
+    <li><a href="#">Contact</a></li>
+  </ul>
+  <input type="text" placeholder="Enter keyword here...">
+</nav>
+
+<div class="content">
+  <h1>FREE CSS TEMPLATES</h1>
+  <p><strong>template.com</strong> provides a lot of high quality free css templates for your personal or commercial websites. Pineapple is a one page layout that can be applied for any purpose. Validated XHTML & CSS. Credits go to Free Photos for photos used in this template. Quisque diam a justo condimentum malesuada. Vivamus a velit. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Curabitur quis velit quis tortor tincidunt aliquet. Mauris quis nulla sed ipsum pretium sagittis. Suspendisse feugiat. Ut sodales libero ut odio. Maecenas venenatis metus eu est. In sed risus ac felis varius bibendum.</p>
+  <a href="#" class="read-more">Read More</a>
+</div>
+
+<div class="projects">
+  <h2 >Mega Development Projects</h2>
+  <div class="project-grid">
+    <div class="project-item">
+      <img src="wp2722928.jpg" alt="">
+      <h3>Lorem ipsum dolor sit amet</h3>
+      <p>Quisque nec nisl. Nam scelerisque cursus dolor. Integer vel sapien quis risus egestas suscipit.</p>
+    </div>
+    <div class="project-item">
+      <img src="c:\Users\Admin\.oracle_jre_usage\Desktop\MMM\wp2722928.jpg" alt="">
+      <h3>Curabitur quis velit quis tortor</h3>
+      <p>Vivamus vulputate felis. Etiam luctus. Quisque facilisis suscipit est. Curabitur eleifend congue leo.</p>
+    </div>
+    <div class="project-item">
+      <img src="c:\Users\Admin\.oracle_jre_usage\Desktop\MMM\wp2722928.jpg" alt="">
+      <h3>Quisquc at ante sit amet erat</h3>
+      <p>Maecenas nisl ante, mollis et, tincidunt vitae, feugiat sit amet, vel. Vestibulum urna.</p>
+    </div>
+    <div class="project-item">
+      <img src="c:\Users\Admin\.oracle_jre_usage\Desktop\MMM\wp2722928.jpg" alt="">
+      <h3>Mauris vestibulum felis eget tortor</h3>
+      <p>Sed pretium, neque hendrerit rhoncus accumsan, nulla tellus pharetra erat, quis rutrum elit justo vitae sapien.</p>
+    </div>
+    <div class="project-item">
+      <img src="c:\Users\Admin\.oracle_jre_usage\Desktop\MMM\wp2722928.jpg" alt="">
+      <h3>Vestibulum auctor odio eget ante</h3>
+      <p>Aliquam erat ac arcu, euismod et, dignissim in, interdum at, nec. Mauris congue felis at risus. Donec felis.</p>
+    </div>
+    <div class="project-item">
+      <img src="c:\Users\Admin\.oracle_jre_usage\Desktop\MMM\wp2722928.jpg" alt="">
+      <h3>Duis vitae velit sed dui</h3>
+      <p>Proin vulputate justo et quam. Cras nisl eros, interdum ac, luctus vitae, viverra ut, ligula.</p>
+    </div>
+  </div>
+  <br>
+  <a href="#" class="read-more">View More</a>
+</div>
+
+<div class="footer">
+  <div>
+    <h3>Events</h3>
+    <p>Maecenas adipiscing elementum</p>
+    <p>Duis vitae velit sed luctus</p>
+    <p>Donec mollis aliquet ligula</p>
+  </div>
+  <div>
+    <h3>Partners</h3>
+    <p>Nullam ultricies tempor nisl</p>
+    <p>Donec mollis aliquet ligula</p>
+    <p>Maecenas adipiscing elementum</p>
+  </div>
+  <div>
+    <h3>Profile</h3>
+    <p>Nullam ultricies tempor nisl, ac egestas diam aliquam a. Ut eleifend semper turpis, id ultrices.</p>
+    <div class="social-icons">
+      <img src="https://cdn-icons-png.flaticon.com/512/145/145812.png" alt="Facebook">
+      <img src="https://cdn-icons-png.flaticon.com/512/145/145802.png" alt="Twitter">
+    </div>
+  </div>
+  <div>
+    <h3>HTML + CSS</h3>
+    <p>Donec mollis aliquet ligula. Curabitur quis velit quis tortor tincidunt aliquet. Suspendisse feugiat. Ut sodales libero ut odio.</p>
+  </div>
+</div>
+
+<div class="footer-bottom">
+  Copyright © 2048 Your Company Name | Website Templates by Free CSS Templates
+</div>
+
+</body>
+</html>
